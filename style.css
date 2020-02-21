@@ -100,60 +100,7 @@ h1 {
   }
   
   
-  @font-face {
-    font-family: "Gotham Condensed";
-    src: url("fonts/GothamCond-Light.otf");
-    font-weight: 200;
-    }
-  @font-face {
-    font-family: "Gotham Condensed";
-    src: url("fonts/GothamCond-Book.otf");
-    font-weight: 400;
-    }
-  @font-face {
-    font-family: "Gotham Condensed";
-    src: url("fonts/GothamCond-Medium.otf");
-    font-weight: 500;
-    }
-    @font-face {
-    font-family: "Gotham Condensed";
-    src: url("fonts/GothamCond-Bold.otf");
-    font-weight: 700;
-    }
-  @font-face {
-    font-family: "Gotham Condensed";
-    src: url("fonts/GothamCond-Ultra.otf");
-    font-weight: 900;
-    }
-  
-  @font-face {
-    font-family: "Gotham Narrow";
-    src: url("fonts/GothamNarrow-Light.otf");
-    font-weight: 200;
-    }
-  @font-face {
-    font-family: "Gotham Narrow";
-    src: url("fonts/GothamNarrow-Book.otf");
-    font-weight: 400;
-    }
-  @font-face {
-    font-family: "Gotham Narrow";
-    src: url("fonts/GothamNarrow-Medium.otf");
-    font-weight: 500;
-    }
-    @font-face {
-    font-family: "Gotham Narrow";
-    src: url("fonts/GothamNarrow-Bold.otf");
-    font-weight: 700;
-    }
-  @font-face {
-    font-family: "Gotham Narrow";
-    src: url("fonts/GothamNarrow-Ultra.otf");
-    font-weight: 900;
-    }
-  
-  
-  
+
     
   
   body, html{
