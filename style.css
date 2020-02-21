@@ -237,3 +237,7 @@ h1 {
       margin-right: auto;
       width: 24em;
   }
+
+  .index {
+    text-decoration: none;
+  }
