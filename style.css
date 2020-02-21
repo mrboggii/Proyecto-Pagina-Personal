@@ -166,7 +166,7 @@ h1 {
     color:#666;
   }
   
-  .pimg1, 
+  .pimg1{ 
     position:relative;
     opacity:1;
     background-position:top;
