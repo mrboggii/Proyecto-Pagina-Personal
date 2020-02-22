@@ -1,5 +1,6 @@
 # Proyecto-Pagina-Personal
-Primer Proyecto del curso FULL STACK DEVELOPER
+Primer Proyecto del curso FULL STACK DEVELOPER.
+
 En este primer proyecto, hemos utilizado los dos lenguajes que recién hemos estudiado,
 que son HTML y CSS.
 
