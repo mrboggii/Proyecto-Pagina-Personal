@@ -15,6 +15,7 @@ h1 {
   }
   
   
+  
   a:link {
       color: rgba(46, 46, 46, 1);
       text-decoration: none;
@@ -161,7 +162,7 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-  justify-content: center;
+    justify-content: center;
 
     
     
@@ -193,11 +194,12 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+
   align-items: auto;
   align-content: space-between;
 }
     .nav {
+   
       background-color: transparent;
       display: flex;
       flex-wrap: wrap;
@@ -205,40 +207,18 @@ h1 {
       justify-content: space-between;
       align-items: auto;
       align-content: space-between;
+      
+ 
     }
      
-      }
-      .btn-large {
-        font-size: 1.0625em;
-        padding: 0.5625em 1.5em;
-      }
-      .btn-gray {
-        color: #808080;
-        border-color: #808080;
-      }
-      .btn-gray:hover {
-        background: #808080;
-        color: #fff;
-        border-color: #808080;	
-      }
-  }
+    
   
 
-input::-moz-focus-inner,
-button::-moz-focus-inner {
-	border: 0;
-	padding: 0;
-}
 
-input[type="submit"].btn,
-button.btn {
-	cursor: pointer;
-}
 
 a.btn,.btn {
   margin-right: 1em; 
   margin-bottom: 1em; 
-	display: inline-block;
 	outline: none;
 	*zoom: 1;
 	text-align: center;
@@ -255,11 +235,57 @@ a.btn,.btn {
   
     
     
+.example_f {
+  border-radius: 4px;
+  background: linear-gradient(to right, #40cfb0, #d2d8ce) !important;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+.example_f,.example_f2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+.example_f,.example_f2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.example_f,.example_f2 :hover span {
+  padding-right: 25px;
+}
+.example_f,.example_f2 :hover span:after {
+  opacity: 1;
+  right: 0;
+}
+  
+  
+.example_f2 {
+  border-radius: 4px;
+  background: linear-gradient(to right,#d2d8ce, #40cfb0) !important;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 5px;
+  
+}
 
-  
-  
-  
-  
-  
-
-    
