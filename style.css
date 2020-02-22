@@ -98,11 +98,6 @@ h1 {
       color: #2e2e2e;
     }
   }
-  
-  
-
-    
-  
   body, html{
     height:100%;
     margin:0;
@@ -112,21 +107,14 @@ h1 {
     line-height:1.8em;
     color:#666;
   }
-  
   .pimg1,.pimg2,.pimg3 { 
     position:relative;
     opacity:1;
     background-position:top;
     background-size:cover;
     background-repeat:no-repeat;
-  
-    /*
-      fixed = parallax
-      scroll = normal
-    */
     background-attachment:fixed;
   }
-  
   .pimg1{
     background-image:url('img/image1.jpg') ;
     min-height:100%;
@@ -264,3 +252,14 @@ a.btn,.btn {
 	box-sizing: border-box;
 	text-shadow: 0 1px 0 rgba(0,0,0,0.01);
 }
+  
+    
+    
+
+  
+  
+  
+  
+  
+
+    
